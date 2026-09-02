@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Entrada no Pesadelo</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="entrada.css" />
+</head>
+<body>
+
+  <header>
+    <h1>☠ Endless Runner — NIGHTMARE v1.2</h1>
+    <nav>
+      <span style="color: #555; padding: 9px 13px;">ENTRADA</span>
+    </nav>
+  </header>
+
+  <main>
+    <div class="tela-entrada">
+      <h1>👻 Crie seu Monstro</h1>
+      <p>Preencha os dados para <strong>entrar no pesadelo</strong>.</p>
+
+      <form id="formEntrada">
+        <input type="text" id="nome" placeholder="Nome do personagem" required />
+        <input type="text" id="tipo" placeholder="Tipo (ex: Zumbi, Esqueleto)" required />
+        <input type="number" id="perigo" min="1" max="5" placeholder="Perigo (1–5)" required />
+        <button type="submit">▶ Entrar no Pesadelo</button>
+      </form>
+
+      <div class="dica">
+        Já tem um monstro? <a href="01-ceu.html">Pular introdução</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="entrada.js"></script>
+</body>
+</html>
