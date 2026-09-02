@@ -6,7 +6,7 @@
   const monstro = JSON.parse(dados);
   const texto = `👤 ${monstro.nome} (${monstro.tipo}) — Perigo ${monstro.perigo}/5`;
 
-   "nomePersonagem" (HUD)
+   
   const spanHud = document.getElementById('nomePersonagem');
   if (spanHud) {
     spanHud.textContent = texto;
